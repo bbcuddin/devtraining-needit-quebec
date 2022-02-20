@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes">
+    <pa_cubes action="DELETE">
+        <benchmarking>false</benchmarking>
+        <calendar>standard</calendar>
+        <calendar_freq/>
+        <conditions table="x_58872_needit_needit">u_when_neededONThis week@javascript:gs.beginningOfThisWeek()@javascript:gs.endOfThisWeek()<item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="ON" or="false" value="This week@javascript:gs.beginningOfThisWeek()@javascript:gs.endOfThisWeek()"/>
+        </conditions>
+        <description>Count NeedIt requests by week.</description>
+        <facts_table>x_58872_needit_needit</facts_table>
+        <facts_table_pk/>
+        <facts_table_pktable/>
+        <facts_table_pkview/>
+        <frequency>20</frequency>
+        <max_record_fetch_count>50000</max_record_fetch_count>
+        <name>NeedIt: Active Weekly</name>
+        <override_record_collection>false</override_record_collection>
+        <report_source/>
+        <report_source_updated_at/>
+        <sys_class_name>pa_cubes</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 13:49:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b187e5e72f210110ae672aa62799b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt: Active Weekly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>pa_cubes_b187e5e72f210110ae672aa62799b634</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 13:49:47</sys_updated_on>
+    </pa_cubes>
+    <sys_translated_text action="DELETE" query="documentkey=b187e5e72f210110ae672aa62799b634"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>d9e94538db1857c45904f897bf9619af</instance_id>
+        <instance_name>dev49991</instance_name>
+        <name>pa_cubes_b187e5e72f210110ae672aa62799b634</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes"><pa_cubes action="INSERT_OR_UPDATE"><benchmarking>false</benchmarking><calendar>standard</calendar><calendar_freq/><conditions table="x_58872_needit_needit">u_when_neededONThis week@javascript:gs.beginningOfThisWeek()@javascript:gs.endOfThisWeek()<item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="ON" or="false" value="This week@javascript:gs.beginningOfThisWeek()@javascript:gs.endOfThisWeek()"/></conditions><description>Count NeedIt requests by week.</description><facts_table>x_58872_needit_needit</facts_table><facts_table_pk/><facts_table_pktable/><facts_table_pkview/><frequency>20</frequency><max_record_fetch_count>50000</max_record_fetch_count><name>NeedIt: Active Weekly</name><override_record_collection>false</override_record_collection><report_source/><report_source_updated_at/><sys_class_name>pa_cubes</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 13:49:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b187e5e72f210110ae672aa62799b634</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NeedIt: Active Weekly</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>pa_cubes_b187e5e72f210110ae672aa62799b634</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 13:49:47</sys_updated_on></pa_cubes><sys_translated_text action="delete_multiple" query="documentkey=b187e5e72f210110ae672aa62799b634"/></record_update>]]></payload>
+        <payload_hash>-277818117</payload_hash>
+        <record_name>NeedIt: Active Weekly</record_name>
+        <reverted_from/>
+        <source>6332f0912f110110ae672aa62799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 13:49:47</sys_created_on>
+        <sys_id>9bd7a9672f210110ae672aa62799b6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ef87f1da60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 13:49:47</sys_updated_on>
+        <type>Indicator Source</type>
+        <update_guid>d3d7a9675e210110aa4714d39f6ab1f9</update_guid>
+        <update_guid_history>d3d7a9675e210110aa4714d39f6ab1f9:-277818117</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="NeedIt: Active Weekly">7188212b2f210110ae672aa62799b6e2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 13:52:40</sys_created_on>
+        <sys_db_object display_value="" name="pa_cubes">pa_cubes</sys_db_object>
+        <sys_id>4dad29df431744a68908b8f25d3b25c9</sys_id>
+        <sys_metadata>b187e5e72f210110ae672aa62799b634</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt: Active Weekly</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>pa_cubes_b187e5e72f210110ae672aa62799b634</sys_update_name>
+        <sys_update_version display_value="pa_cubes_b187e5e72f210110ae672aa62799b634">9bd7a9672f210110ae672aa62799b6f9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 13:52:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
